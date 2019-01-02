@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://sjesgzp.com/';
+$config['base_url']	= 'http://localhost/sjesgzp.com/';
 
 /*
 |--------------------------------------------------------------------------

@@ -85,24 +85,25 @@
 													</p>
 												</div>
 											</div>
-											<div class="column-1_3 sc_column_item sc_column_item_2 even text_center">
-												<img src="<?php echo base_url(); ?>assets/principal.jpg"  height="100" width="100">
-												<div class="sc_section font-w_400 margin_top_1em_imp">
-													<p>
-														<a class="menu_color" href="#">Principal<br />
-														( Anil Yadav )</a>
-													</p>
-												</div>
-											</div>
 											<div class="column-1_3 sc_column_item sc_column_item_3 odd text_center">
 												<img src="<?php echo base_url(); ?>assets/wiseprincipal.jpg"  height="100" width="100">
 												<div class="sc_section font-w_400 margin_top_1em_imp">
 													<p>
-														<a class="menu_color" href="#">Vice Principal<br />
+														<a class="menu_color" href="#">Principal<br />
 														( Vijay Rai )</a>
 													</p>
 												</div>
 											</div>
+											<div class="column-1_3 sc_column_item sc_column_item_2 even text_center">
+												<img src="<?php echo base_url(); ?>assets/principal.jpeg"  height="100" width="100">
+												<div class="sc_section font-w_400 margin_top_1em_imp">
+													<p>
+														<a class="menu_color" href="#">Vice Principal<br />
+														( Arvind Yadav )</a>
+													</p>
+												</div>
+											</div>
+											
 										</div>
 									</div>
 								</div>
@@ -220,74 +221,10 @@
 														</div>
 														<!-- /Courses item -->
 														<!-- Courses item -->
-														<div class="isotope_item isotope_item_courses isotope_column_3">
-															<div class="post_item post_item_courses even">
-																<div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
-																	<div class="post_featured img">
-																		<a href="paid-course.html">
-																			<img alt="Principles of Written English, Part 1" src="<?php echo base_url(); ?>assets/images/top1.jpg">
-																		</a>
-																		
-																		<div class="post_descr">
-																			<div class="post_price">
-																				<span class="post_price_value">6th-A </span>
-																			</div>
-																			<div class="post_category">
-																				<a href="product-category.html">Sachin Yadav (2016-17)</a>
-																			</div>
-																		</div>
-																	</div>
-																	
-																</div>
-															</div>
-														</div>
+														
 														<!-- /Courses item -->
-														<!-- Courses item -->
-														<div class="isotope_item isotope_item_courses isotope_column_3">
-															<div class="post_item post_item_courses odd">
-																<div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
-																	<div class="post_featured img">
-																		<a href="paid-course.html">
-																			<img alt="Introduction to Biomedical Imaging" src="<?php echo base_url(); ?>assets/images/top2.jpg"></a>
-																		
-																		<div class="post_descr">
-																			<div class="post_price">
-																				<span class="post_price_value">8th-A </span>
-																			</div>
-																			<div class="post_category">
-																				<a href="product-category.html">Arti Yadav (2016-17)</a>
-																			</div>
-																		</div>
-																	</div>
-																	
-																</div>
-															</div>
-														</div>
-														<!-- /Courses item -->
-														<!-- Courses item -->
-														<div class="isotope_item isotope_item_courses isotope_column_3">
-															<div class="post_item post_item_courses even last">
-																<div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
-																	<div class="post_featured img">
-																		<a href="paid-course.html">
-																			<img alt="Introduction to Computer  Science" src="<?php echo base_url(); ?>assets/images/top3.jpg">
-																		</a>
-																	
-																		<div class="post_descr">
-																			<div class="post_price">
-																				<span class="post_price_value">6th-A</span>
-																				<span class="post_price_period"></span>
-																			</div>
-																			<div class="post_category">
-																				<a href="product-category.html">Vikash Yadav (2016-17)</a>
-																			</div>
-																		</div>
-																	</div>
-																	
-																</div>
-															</div>
-														</div>
-														<!-- /Courses item -->
+													
+														
 													</div>
 												</div>
 												
