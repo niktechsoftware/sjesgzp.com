@@ -95,7 +95,8 @@
 												</div>
 											</div>
 											<div class="column-1_3 sc_column_item sc_column_item_2 even text_center">
-												<img src="<?php echo base_url(); ?>assets/principal.jpeg"  height="100" width="100">
+
+												<img src="<?php echo base_url(); ?>assets/principal.jpg"  height="100" width="100">
 												<div class="sc_section font-w_400 margin_top_1em_imp">
 													<p>
 														<a class="menu_color" href="#">Vice Principal<br />
