@@ -16,7 +16,7 @@
 			<div class="page_top_wrap page_top_title page_top_breadcrumbs sc_pt_st1">
                 <div class="content_wrap">
                     <div class="breadcrumbs">
-                        <a class="breadcrumbs_item home" href="#">Home</a>
+                        <a class="breadcrumbs_item home" href="http://sjesgzp.com">Home</a>
 						<span class="breadcrumbs_delimiter"></span>
 						<a class="breadcrumbs_item all" href="#">Contact</a>
 						

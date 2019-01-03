@@ -154,8 +154,8 @@
                     </div>
                     <div class="contacts_address">
                         <address class="address_right">
-							Phone: 0548-2230140,2230145<br>
-							Mobile: 09451214137, 09451006698
+							Email  : info@sjesgzp.com<br>
+                            Mobile: 09451214137, 09451006698
 						</address>
                         <address class="address_left">
 							Shivnagar Colony, Mithanpara,<br>	
@@ -200,7 +200,7 @@
 			<!-- Copyright -->
             <div class="copyright_wrap">
                 <div class="content_wrap">
-                    <p>© 2016 All Rights Reserved. <a href="#">Powered</a> By <a href="#">Gfinch Technologies</a></p>
+                    <p>2017 &copy All Rights Reserved. <a href="#">Powered</a> By <a href="http://gfinch.in">Niktech Software</a></p>
                 </div>
             </div>
 			<!-- /Copyright -->

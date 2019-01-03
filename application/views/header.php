@@ -12,7 +12,7 @@
                                 </li>
                             </ul>
                         </div>
-                       <div class="menu_user_area menu_user_left menu_user_contact_area">Contact us on 0548-2230140, 145, 09451214137 ,09451156060 , or <a href="#"><span> info@sjesgzp.com </span><script data-cfhash='f9e31' type="text/javascript">
+                       <div class="menu_user_area menu_user_left menu_user_contact_area">Contact us on +91-9451214137 ,+91-9451156060 , or <a href="#"><span> info@sjesgzp.com </span><script data-cfhash='f9e31' type="text/javascript">
 /* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script></a></div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@
 								</li>
 								
 								<li class="menu-item"><a href="<?php echo base_url();?>index.php/welcome/gallery">Gallery</a></li>
-								<li class="menu-item menu-item-has-children"><a href="team-members.html">Info Corner</a>
+								<li class="menu-item menu-item-has-children"><a href="#">Info Corner</a>
 									<ul class="sub-menu">
 									<li class="menu-item"><a href="<?php echo base_url();?>index.php/welcome/admissionGuide">Admission Guideline</a></li>
 										<li class="menu-item"><a href="#">Admission Form</a></li>

@@ -122,10 +122,11 @@
 															<div class="post_item post_item_courses odd">
 																<div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
 																	<div class="post_featured img">
+																		 <div style="background-color: #ffb3ff;" class="post_title text_center"><h5>NOTICE BOARD</h5></div>
 																		 <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
-													                     <div style="background-color: #c59090;" class="icon-box-3 wow fadeInUp" data-wow-delay="0.6s" data-wow-offset="150">
+													                     <div style="background-color: #ffccff;" class="icon-box-3 wow fadeInUp" data-wow-delay="0.6s" data-wow-offset="150">
 													                    	
-													                        <div style="background-color: #F781F3;" class="post_title">NOTICE BOARD</div>
+													                        
 													                         <marquee direction="up" height="300" behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();">
 													                                <?php foreach($this->db->get("notice")->result() as $row):?>
 													                                <strong><h4 style = "color:#030;"><?php echo $row->subject;?></h4></strong>
@@ -147,80 +148,78 @@
 																<div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
 																	<div class="post_featured img">
 																		 <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
-													                     <div style="background-color: #839ad7;" class="icon-box-3 wow fadeInUp" data-wow-delay="0.6s" data-wow-offset="150">
-													                    	
-													                        <div style="background-color: #234393;" class="post_title">Today's Birthday</div>
+													                     <div style="background-color: #99e6ff;" class="icon-box-3 wow fadeInUp" data-wow-delay="0.6s" data-wow-offset="150">                 	
+													                        <div style="background-color: #66d9ff;" class="post_title text_center"><h5>TODAY' BIRTHDAY</h5></div>
 													                         <marquee direction="up" height="300" behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();">
-													                                <?php  $d=date('Y-m-d');
-                             
-   					 $cm=  date("m",strtotime($d));
-   					 $cd=  date("d",strtotime($d));
-   					 $this->db->where("status","Active");
-   				 $gal =	 $this->db->get("student_info");
-                            	 
-				
-				if( $gal->num_rows() > 0)
-				{
-				$gal1 = $gal->result();
-				$h=0;
-				foreach($gal1 as $gal):
-					
-					 $sdate = $gal->date_ob; 
-   					 $sm=  date("m",strtotime($sdate));
-   					 $sd=  date("d",strtotime($sdate));
-   				//	echo $sm."-".$sd;
-   					 if($sm==$cm && $sd==$cd){
-   					 $h++;
-   					 
-				?>    
-                       <p> <span id="lblhigh1"  style="display:inline-block;width:150px;">
-                        <img src="<?php echo base_url(); ?>sjesSchool/assets/images/stuImage/<?php echo $gal->photo;?>" height="50" width="50" alt="ad" />
-                       <?php 
-                      
-                       echo "&nbsp;".$h.") ".$gal->first_name." ".$gal->last_name."[".$gal->class_id."-".$gal->section."]"; ?></span></p>
-                  
-                         <?php  }endforeach;
-                         if($h<2){?>
-                         
-                      <?php    }
-				}
-				else
-				{?>
-                	<h4 style="color:#F00">No Record Found<?php echo date('Y-m-d');?></h4>
-                 <?php }?>
-													                         </marquee>     
-													                     </div>   
-													                    </div>
-																	</div>
-																	
-																</div>
-															</div>
-														</div>
+													                                <?php  $d=date('Y-m-d');        
+											   					 $cm=  date("m",strtotime($d));
+											   					 $cd=  date("d",strtotime($d));
+											   					 $this->db->where("status","Active");
+											   				 $gal =	 $this->db->get("student_info");
+											                            	 
+															
+															if( $gal->num_rows() > 0)
+															{
+															$gal1 = $gal->result();
+															$h=0;
+															foreach($gal1 as $gal):
+																
+																 $sdate = $gal->date_ob; 
+											   					 $sm=  date("m",strtotime($sdate));
+											   					 $sd=  date("d",strtotime($sdate));
+											   				//	echo $sm."-".$sd;
+											   					 if($sm==$cm && $sd==$cd){
+											   					 $h++;
+											   					 
+															?>    
+											                       <p> <span id="lblhigh1"  style="display:inline-block;width:150px;">
+											                        <img src="<?php echo base_url(); ?>sjesSchool/assets/images/stuImage/<?php echo $gal->photo;?>" height="50" width="50" alt="ad" />
+											                       <?php 
+											                      
+											                       echo "&nbsp;".$h.") ".$gal->first_name." ".$gal->last_name."[".$gal->class_id."-".$gal->section."]"; ?></span></p>
+											                  
+											                         <?php  }endforeach;
+											                         if($h<2){?>
+											                         
+											                      <?php    }
+															}
+															else
+															{?>
+											                	<h4 style="color:#F00">No Record Found<?php echo date('Y-m-d');?></h4>
+											                 <?php }?>
+																								                         </marquee>     
+																								                     </div>   
+																								                    </div>
+																												</div>
+																												
+																											</div>
+																										</div>
+																									</div>
 														<!-- /Courses item -->
-														<!-- Courses item -->
-														<div class="isotope_item isotope_item_courses isotope_column_3">
-															<div class="post_item post_item_courses odd">
-																<div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
-																	<div class="post_featured img">
-																	 <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
-													                     <div style="background-color: #74c16b;" class="icon-box-3 wow fadeInUp" data-wow-delay="0.6s" data-wow-offset="150">
-													                    	
-													                        <div style="background-color: #36a12b;" class="post_title">Todays Thought</div>
-													                         <marquee direction="up" height="300" behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();">
-													                                <?php foreach($this->db->get("todaythought")->result() as $row):?>
-													                                <strong><h4 style="color:#030;"><?php echo date("d-m-Y");?></h4></strong>
-													                                <p style="color:#030;"><?php echo $row->thought;?></p>
-													                                <p style="color:#F00;"><?php echo $row->written_date;?></p>
-													                                <?php endforeach;?>
-													                         </marquee>     
-													                     </div>   
-													                    </div>
-																	</div>
-																	
-																</div>
-															</div>
-														</div>
-														<!-- /Courses item -->
+			<!-- Courses item -->
+			<div class="isotope_item isotope_item_courses isotope_column_3">
+				<div class="post_item post_item_courses odd">
+					<div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
+						<div class="post_featured img">
+						 <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
+		                     <div style="background-color: #bfff80;" class="icon-box-3 wow fadeInUp" data-wow-delay="0.6s" data-wow-offset="150">
+		                    	
+		                        <div style="background-color: #b3ff66;" class="post_title text_center"><h5>TODAYS THOUGHT</h5></div>
+		                         <marquee direction="up" height="300" behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();">
+		                                <?php foreach($this->db->get("todaythought")->result() as $row):?>
+		                                <strong><h4 style="color:#030;"><?php echo date("d-m-Y");?></h4></strong>
+		                                <p style="color:#030;"><?php echo $row->thought;?></p>
+		                                <p style="color:#F00;"><?php echo $row->written_date;?></p>
+		                                <?php endforeach;?>
+		                         </marquee>     
+		                     </div>   
+		                    </div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<!-- /Courses item -->
 														<!-- Courses item -->
 														
 														<!-- /Courses item -->
