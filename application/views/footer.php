@@ -62,11 +62,11 @@
                             <article class="post_item with_thumb first">
                                 <div class="post_thumb">
 									<img alt="Principles of Written English, Part 1" src="<?php echo base_url(); ?>assets/images/masonry_05-75x75.jpg"></div>
-                                <div class="post_content">
-                                    <h6 class="post_title">
-										<a href="paid-course.html">Principles of Written English, Part 1</a>
-									</h6>
-                                    <div class="post_info"><span class="post_info_item post_info_posted">
+                                     <div class="post_content">
+                                         <h6 class="post_title">
+									   	<a href="paid-course.html">Principles of Written English, Part 1</a>
+									   </h6>
+                                         <div class="post_info"><span class="post_info_item post_info_posted">
 										<a href="paid-course.html" class="post_info_date">December 24, 2014</a></span>
 										<span class="post_info_item post_info_posted_by">by 
 											<a href="#" class="post_info_author">John Doe</a>

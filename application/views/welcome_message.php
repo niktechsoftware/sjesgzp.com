@@ -129,7 +129,7 @@
 													                        
 													                         <marquee direction="up" height="300" behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();">
 													                                <?php foreach($this->db->get("notice")->result() as $row):?>
-													                                <strong><h4 style="color:#030;"><?php echo date("d-m-Y");?></h4></strong>
+													                                
 													                                <h4 style = "color:#030;"><?php echo $row->subject;?></h4>
 													                                <h6 style="color:#030;"><?php echo $row->message;?></h6>
 													                                <p style="color:#F00;"><?php echo $row->date;?></p>
