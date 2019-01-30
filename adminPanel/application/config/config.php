@@ -16,7 +16,7 @@
 | environments.
 |
 */
-$config['base_url'] = 'http://localhost/sjesgzp.com/adminPanel/';
+$config['base_url'] = 'http://sjesgzp.com/adminPanel/';
 
 /*
 |--------------------------------------------------------------------------

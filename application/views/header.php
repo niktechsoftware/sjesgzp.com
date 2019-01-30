@@ -71,6 +71,7 @@
 								
 								<li class="menu-item"><a href="<?php echo base_url();?>sjesSchool/homeController.gfinch">Login</a></li>
 								<li class="menu-item"><a href="<?php echo base_url();?>index.php/welcome/contact">Contact Us</a></li>
+								<li class="menu-item"><a href="<?php echo base_url();?>index.php/welcome/calender">School Calender</a></li>
 								
 							</ul>
 						</nav>

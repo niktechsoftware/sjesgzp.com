@@ -57,7 +57,7 @@
                                     <button type="submit" class="btn btn-success btn-block">Login</button>
                                     <a href="<?php echo base_url();?>apanel/forgotPass" class="display-block text-center m-t-md text-sm">Forgot Password?</a>
                                 </form>
-                                <p class="text-center m-t-xs text-sm">2015 &copy; Gfinch Technologies.</p>
+                                <p class="text-center m-t-xs text-sm">2017 &copy; Niktech Software Solutions.</p>
                             </div>
                         </div>
                     </div><!-- Row -->

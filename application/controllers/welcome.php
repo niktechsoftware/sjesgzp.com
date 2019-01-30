@@ -52,6 +52,11 @@ class Welcome extends CI_Controller {
 			$data['body'] = "contact";
 			$this->load->view("include/mainContent",$data);
 		}
+		public function calender()
+		{
+			$data['body'] = "schoolCalender";
+			$this->load->view("include/mainContent2",$data);
+		}
 		
 		
 	

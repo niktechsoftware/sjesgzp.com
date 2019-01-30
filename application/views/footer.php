@@ -2,140 +2,57 @@
 <footer class="footer_wrap bg_tint_light footer_style_light widget_area">
                 <div class="content_wrap">
                     <div class="columns_wrap">
+						
 						<!-- Calendar widget -->
-                        <aside class="column-1_3 widget widget_calendar">
-                            <h5 class="widget_title">Calendar</h5>
-                            <?php  $data = array(
-            'year' => $this->uri->segment(3),
-            'month' => $this->uri->segment(4)
-        );
-
-        $prefs['template'] = '
-        {table_open}<table cellpadding="1" cellspacing="2">{/table_open}
-
-        {heading_row_start}<tr>{/heading_row_start}
-
-        {heading_previous_cell}<th class="prev_sign"><a href="{previous_url}">&lt;&lt;</a></th>{/heading_previous_cell}
-        {heading_title_cell}<th colspan="{colspan}">{heading}</th>{/heading_title_cell}
-        {heading_next_cell}<th class="next_sign"><a href="{next_url}">&gt;&gt;</a></th>{/heading_next_cell}
-
-        {heading_row_end}</tr>{/heading_row_end}
-
-        {week_row_start}<tr class="week_name" >{/week_row_start}
-        {week_day_cell}<td >{week_day}</td>{/week_day_cell}
-        {week_row_end}</tr>{/week_row_end}
-
-        {cal_row_start}<tr>{/cal_row_start}
-        {cal_cell_start}<td>{/cal_cell_start}
-
-        {cal_cell_content}<a href="{content}">{day}</a>{/cal_cell_content}
-        {cal_cell_content_today}<div class="highlight"><a href="{content}">{day}</a></div>{/cal_cell_content_today}
-
-        {cal_cell_no_content}{day}{/cal_cell_no_content}
-        {cal_cell_no_content_today}<div class="highlight">{day}</div>{/cal_cell_no_content_today}
-
-        {cal_cell_blank}&nbsp;{/cal_cell_blank}
-
-        {cal_cell_end}</td>{/cal_cell_end}
-        {cal_row_end}</tr>{/cal_row_end}
-
-        {table_close}</table>{/table_close}
-        ';
-        
-        $prefs['day_type'] = 'short';
-        $prefs['show_next_prev'] = true;
-        $prefs['next_prev_url'] = 'http://sjesgzp.com/index.php/CI_Calendar_Tutorial/index';
-        
-        // Loading calendar library and configuring table design
-        $this->load->library('calendar', $prefs);
-        // Load view page
-        $this->load->view('calendar_show', $data);
-                            
-       
-                            ?>
-                         
+                        <aside class="column-1_3 widget">
+                        	<article class="post_item with_thumb first">
+                            <iframe src="https://calendar.google.com/calendar/b/1/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=7f6g7p5vr66o01gv34ebe2khao%40group.calendar.google.com&amp;color=%2328754E&amp;ctz=Asia%2FKolkata" style="border-width:0" width="1000" height="1000" frameborder="0" scrolling="no"></iframe>
+                        </article>
                         </aside>
 						<!-- /Calendar widget -->
+						
 						<!-- Popular courses widget -->
 						<aside class="column-1_3 widget">
-                            <h5 class="widget_title">Memorable Events </h5>
                             <article class="post_item with_thumb first">
-                                <div class="post_thumb">
-									<img alt="Principles of Written English, Part 1" src="<?php echo base_url(); ?>assets/images/masonry_05-75x75.jpg"></div>
-                                     <div class="post_content">
-                                         <h6 class="post_title">
-									   	<a href="paid-course.html">Principles of Written English, Part 1</a>
-									   </h6>
-                                         <div class="post_info"><span class="post_info_item post_info_posted">
-										<a href="paid-course.html" class="post_info_date">December 24, 2014</a></span>
-										<span class="post_info_item post_info_posted_by">by 
-											<a href="#" class="post_info_author">John Doe</a>
-										</span>
-										<span class="post_info_item post_info_counters">
-											<a href="paid-course.html" class="post_counters_item post_counters_rating icon-star-1">
-												<span class="post_counters_number">86.8</span>
-											</a>
-                                        </span>
-                                    </div>
-                                </div>
-                            </article>
-                          
-                        
-                         
-                        </aside>
+                                <div style="background-color: #f2f2f2;" class="icon-box-3 wow fadeInUp" data-wow-delay="0.6s" data-wow-offset="150">                   	
+		                        <div style="background-color: #d9d9d9;" class="post_title text_center"><h5>Memorable Events</h5></div>
+		                         <marquee direction="up" height="300" behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();">
+		                                <ul>
+		                                	<li>Republic Day</li>
+		                                	<li>Anual Exam start(27-feb to)</li>
+		                                	<li></li>
+		                                	<li></li>
+		                                	<li></li>
+		                                	<li></li>
+		                                	<li></li>
+		                                	<li></li>
+		                                	<li></li>
+		                                	<li></li>
+		                                	<li></li>
+		                                	<li></li>
+		                                	<li></li>
+		                                	<li></li>
+		                                </ul>
+		                         </marquee>     
+		                     </div>     
+                            </article>                    
+                     	</aside>
 						<!-- /Popular courses widget -->
+						
 						<!-- Recent courses widget -->
                         <aside class="column-1_3 widget">
-                            <h5 class="widget_title">Recent Events</h5>
                             <article class="post_item with_thumb first">
-                                <div class="post_thumb">
-									<img alt="Principles of Written English, Part 2" src="<?php echo base_url(); ?>assets/images/masonry_15-75x75.jpg">
-								</div>
-                                <div class="post_content">
-                                    <h6 class="post_title">
-										<a href="paid-course.html">Principles of Written English, Part 2</a>
-									</h6>
-                                    <div class="post_info">
-										<span class="post_info_item post_info_posted">
-											<a href="paid-course.html" class="post_info_date">February 10, 2015</a>
-										</span>
-										<span class="post_info_item post_info_posted_by">by 
-											<a href="#" class="post_info_author">John Doe</a>
-										</span>
-										<span class="post_info_item post_info_counters">
-											<a href="paid-course.html" class="post_counters_item post_counters_views icon-eye">
-												<span class="post_counters_number">749</span>
-											</a>
-                                        </span>
-                                    </div>
-                                </div>
-                            </article>
-                           
-                            <article class="post_item with_thumb">
-                                <div class="post_thumb">
-									<img alt="Evaluating Social  Programs" src="<?php echo base_url(); ?>assets/images/masonry_04-75x75.jpg">
-								</div>
-                                <div class="post_content">
-                                    <h6 class="post_title">
-										<a href="free-course.html">Evaluating Social  Programs</a>
-									</h6>
-                                    <div class="post_info">
-										<span class="post_info_item post_info_posted">
-											<a href="free-course.html" class="post_info_date">January 1, 2015</a>
-										</span>
-										<span class="post_info_item post_info_posted_by">by 
-											<a href="#" class="post_info_author">John Doe</a>
-										</span>
-										<span class="post_info_item post_info_counters">
-											<a href="free-course.html" class="post_counters_item post_counters_views icon-eye">
-												<span class="post_counters_number">1154</span>
-											</a>
-                                        </span>
-                                    </div>
-                                </div>
-                            </article>
-                          
-                        </aside>
+                                <div style="background-color: #f2f2f2;" class="icon-box-3 wow fadeInUp" data-wow-delay="0.6s" data-wow-offset="150">                   	
+		                        <div style="background-color: #d9d9d9;" class="post_title text_center"><h5>Recent Events</h5></div>
+		                         <marquee direction="up" height="300" behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();">
+		                                <ul>
+		                                	<li>Republic Day</li>
+		                                	
+		                                </ul>
+		                         </marquee>     
+		                     </div>     
+                            </article>                    
+                     	</aside>
 						<!-- /Recent courses widget -->
                     </div>
                 </div>
@@ -200,7 +117,7 @@
 			<!-- Copyright -->
             <div class="copyright_wrap">
                 <div class="content_wrap">
-                    <p>2017 &copy All Rights Reserved. <a href="#">Powered</a> By <a href="http://gfinch.in">Niktech Software</a></p>
+                    <p>2017 &copy All Rights Reserved. <a href="#">Powered</a> By <a href="http://gfinch.in">Niktech Software Solutions</a></p>
                 </div>
             </div>
 			<!-- /Copyright -->

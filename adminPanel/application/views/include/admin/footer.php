@@ -3,7 +3,7 @@
 
                 <div class="page-footer">
                     <div class="container">
-                        <p class="no-s">2015 &copy; Gfinch Technologies Ltd.</p>
+                        <p class="no-s">2017 &copy; Niktech Software Solutions.</p>
                     </div>
                 </div>
             
