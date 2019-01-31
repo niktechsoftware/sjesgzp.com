@@ -13,25 +13,19 @@
 						
 						<!-- Popular courses widget -->
 						<aside class="column-1_3 widget">
-                            <article class="post_item with_thumb first">
+                            <article class="post_item with_thumb first" >
                                 <div style="background-color: #f2f2f2;" class="icon-box-3 wow fadeInUp" data-wow-delay="0.6s" data-wow-offset="150">                   	
-		                        <div style="background-color: #d9d9d9;" class="post_title text_center"><h5>Memorable Events</h5></div>
+		                        <div style="background-color: #d9d9d9;" class="post_title text_center"><h5 margin-top="0px">Memorable Events</h5></div>
 		                         <marquee direction="up" height="300" behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();">
 		                                <ul>
 		                                	<li>Republic Day</li>
-		                                	<li>Anual Exam start(27-feb to)</li>
-		                                	<li></li>
-		                                	<li></li>
-		                                	<li></li>
-		                                	<li></li>
-		                                	<li></li>
-		                                	<li></li>
-		                                	<li></li>
-		                                	<li></li>
-		                                	<li></li>
-		                                	<li></li>
-		                                	<li></li>
-		                                	<li></li>
+		                                	<li>Annual Exam start(27-feb to 16 March)</li>
+		                                	<li>New Session Start(2 April)</li>
+		                                	<li>Periodic First(8 may to 13 may)</li>
+		                                	<li>Periodic Second(2 August to 7 August)</li>
+		                                	<li>Half Yearly Exam(27 September to 9 october)</li>
+		                                	<li>Diwali Celebrations(27 October)</li>
+		                                	<li>Christmas Celebrations(25 Decembers)</li>
 		                                </ul>
 		                         </marquee>     
 		                     </div>     
@@ -46,8 +40,9 @@
 		                        <div style="background-color: #d9d9d9;" class="post_title text_center"><h5>Recent Events</h5></div>
 		                         <marquee direction="up" height="300" behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();">
 		                                <ul>
-		                                	<li>Republic Day</li>
-		                                	
+		                                	<li>New Year Celebrations</li>
+		                                	<li>Makar Sankranti</li>
+		                                	<li>Republic Day</li>		                                	
 		                                </ul>
 		                         </marquee>     
 		                     </div>     

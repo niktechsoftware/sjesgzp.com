@@ -211,7 +211,7 @@
 													                                <?php foreach($this->db->get("todaythought")->result() as $row):?>
 													                                <strong><h4 style="color:#030;"><?php echo date("d-m-Y");?></h4></strong>
 													                                <p style="color:#030;"><?php echo $row->thought;?></p>
-													                                <p style="color:#F00;"><?php echo $row->written_date;?></p>
+													                                
 													                                <?php endforeach;?>
 													                         </marquee>     
 													                     </div>   
